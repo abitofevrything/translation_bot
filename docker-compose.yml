@@ -13,6 +13,6 @@ services:
       - libretranslate
 
   libretranslate:
-    image: libretranslate/libretranslate:latest
+    image: libretranslate/libretranslate
     expose:
       - 5000
