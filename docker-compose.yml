@@ -1,0 +1,18 @@
+version: '3.9'
+
+services:
+  translation_bot:
+    build: .
+    restart: always
+    env_file:
+      .env
+
+    links:
+      - libretranslate
+    depends_on:
+      - libretranslate
+
+  libretranslate:
+    image: libretranslate/libretranslate:latest
+    expose:
+      - 5000

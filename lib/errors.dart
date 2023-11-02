@@ -1,0 +1,1 @@
+class InputRequiredException implements Exception {}

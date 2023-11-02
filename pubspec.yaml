@@ -1,0 +1,27 @@
+name: translation_bot
+description: A Discord bot written with nyxx and nyxx_commands.
+version: 0.1.0
+publish_to: none
+
+environment:
+  sdk: ^3.0.0
+
+dependencies:
+  nyxx: ^6.0.1
+  nyxx_commands: ^6.0.0
+  libre_translate: ^1.0.0
+  get_it: ^7.6.4
+  nyxx_extensions: ^4.0.0
+
+dependency_overrides:
+  nyxx:
+    git:
+      url: https://github.com/abitofevrything/nyxx.git
+      ref: uh-oh-fixes
+  nyxx_extensions:
+    git:
+      url: https://github.com/abitofevrything/nyxx_extensions.git
+      ref: uh-oh-fixes
+
+dev_dependencies:
+  lints: ^2.0.0
