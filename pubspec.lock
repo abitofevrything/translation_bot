@@ -157,9 +157,9 @@ packages:
     dependency: "direct main"
     description:
       path: "."
-      ref: uh-oh-fixes
-      resolved-ref: "44d9b288b6595a1e7624ff7bc11fc41c1ecb5518"
-      url: "https://github.com/abitofevrything/nyxx.git"
+      ref: dev
+      resolved-ref: f7abb730c501bd744a10cf79ff1b92c86be9e9ac
+      url: "https://github.com/nyxx-discord/nyxx.git"
     source: git
     version: "6.0.1"
   nyxx_commands:
