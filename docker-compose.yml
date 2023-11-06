@@ -14,5 +14,6 @@ services:
 
   libretranslate:
     image: libretranslate/libretranslate
+    restart: always
     expose:
       - 5000
